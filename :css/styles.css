@@ -30,9 +30,6 @@ ul {
 /*header*/
 #header {
 }
-header address {
-  font-style: normal;
-}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -42,9 +39,6 @@ header address {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-}
-.header-logo span {
-  color: #2e2f42;
 }
 .header_logo_second {
   color: #2e2f42;
@@ -69,25 +63,9 @@ header address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact_list a {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.contact_list a:hover,
-.contact_list a:focus {
-  color: #404bbf;
-}
 .contact_list:hover,
 .contact_list:focus {
   color: #404bbf;
-}
-.contact_list a[href=""] {
-  /* Add your styles here */
-}
-.contact_list a[class*=""] {
-  /* Add your styles here */
 }
 menu:active {
   text-decoration: underline;
@@ -208,7 +186,6 @@ footer {
   letter-spacing: 0.02em;
 }
 .footer-logo {
-  font-family: "Raleway", sans-serif;
   line-height: 1.17;
   font-size: 18px;
   font-weight: 700;
@@ -216,64 +193,7 @@ footer {
   text-decoration: none;
   color: #4d5ae5;
   text-transform: uppercase;
-}
-.footer-logo span {
-  color: #2e2f42;
 }
 .footer_logo_second {
   color: #f4f4fd;
-}
-
-footer[class*=""] {
-  color: #2e2f42;
-}
-
-footer .footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #4d5ae5;
-}
-
-footer .footer-logo span {
-  color: #2e2f42;
-}
-
-footer p[class*=""] {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-}
-
-section h2[class*=""] {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-section ul li img[src^="./images"][src$=".jpeg"],
-section ul li img[src^="./images"][src$=".jpg"] {
-  width: 360px;
-}
-
-section ul li h3[class*=""] {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-section ul li p[class*=""] {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
